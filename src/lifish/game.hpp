@@ -29,12 +29,12 @@ namespace lif {
 
 constexpr auto MAX_PLAYERS = 2;
 /** Width of the game viewport, in pixels */
-constexpr auto GAME_WIDTH = 544;
+constexpr auto GAME_WIDTH = 1088;
 /** Height of the game viewport, in pixels */
-constexpr auto GAME_HEIGHT = 480;
+constexpr auto GAME_HEIGHT = 960;
 
-constexpr auto SIDE_PANEL_WIDTH = 96;
-constexpr auto SIDE_PANEL_HEIGHT = 480;
+constexpr auto SIDE_PANEL_WIDTH = 192;
+constexpr auto SIDE_PANEL_HEIGHT = 960;
 
 constexpr auto WINDOW_WIDTH = SIDE_PANEL_WIDTH + GAME_WIDTH;
 constexpr auto WINDOW_HEIGHT = GAME_HEIGHT;
