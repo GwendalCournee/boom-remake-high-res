@@ -137,7 +137,7 @@ void SidePanel::_drawTime(sf::RenderTarget& window, sf::RenderStates states) con
 	lif::ShadedText timeText(
 			lif::getAsset("fonts", lif::fonts::SIDE_PANEL),
 			ss.str(), TIME_POS);
-	timeText.setCharacterSize(14);
+	timeText.setCharacterSize(28);
 	timeText.setShadowSpacing(2, 2);
 	if (minutes < 1 && seconds <= 30) {
 		timeText.setColor(sf::Color(220, 0, 0, 255), sf::Color::Black);
@@ -163,7 +163,7 @@ void SidePanel::draw(sf::RenderTarget& window, sf::RenderStates states) const {
 		}
 
 		lif::ShadedText text(lif::getAsset("fonts", lif::fonts::SIDE_PANEL), ss.str(), pos);
-		text.setCharacterSize(16);
+		text.setCharacterSize(32);
 		text.setShadowSpacing(2, 2);
 		window.draw(text, states);
 
@@ -184,7 +184,7 @@ void SidePanel::draw(sf::RenderTarget& window, sf::RenderStates states) const {
 			pos.y = i == 0 ? BONUS_ICON_POS_Y_1 : BONUS_ICON_POS_Y_2;
 			text.setStyle(sf::Text::Regular);
 			text.setPosition(sf::Vector2f(pos.x, pos.y + BONUS_ICON_HEIGHT + 2));
-			text.setCharacterSize(9);
+			text.setCharacterSize(18);
 			text.setShadowSpacing(1, 1);
 			text.setString("x" + lif::to_string(powers.maxBombs));
 			window.draw(text, states);
@@ -214,8 +214,8 @@ void SidePanel::draw(sf::RenderTarget& window, sf::RenderStates states) const {
 		pos.y = i == 0 ? SCORE_POS_Y_1 : SCORE_POS_Y_2;
 		lif::ShadedText scoreText(
 				lif::getAsset("fonts", lif::fonts::SIDE_PANEL),
-				"score", pos + sf::Vector2f(3, -19));
-		scoreText.setCharacterSize(16);
+				"score", pos + sf::Vector2f(3, -38));
+		scoreText.setCharacterSize(32);
 		scoreText.setShadowSpacing(2, 2);
 		window.draw(scoreText, states);
 		ss.str("");

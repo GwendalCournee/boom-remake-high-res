@@ -38,7 +38,7 @@ void LoadScreen::build() {
 	 */
 	const auto font = lif::getAsset("fonts", lif::fonts::SCREEN);
 	const auto win_bounds = sf::FloatRect(0, 0, size.x, size.y);
-	const auto size = 24;
+	const auto size = 48;
 	const float ipadx = 25,
 	            ipady = 15;
 

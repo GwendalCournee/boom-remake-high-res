@@ -7,13 +7,13 @@
 		"styles": {
 			"default": {
 				"font": "pf_tempesta_seven_bold.ttf",
-				"character-size": 20,
+				"character-size": 40,
 				"spacing": 10,
 				"h-align": "left"
 			},
 			"big": {
 				"font": "pf_tempesta_seven_bold.ttf",
-				"character-size": 32,
+				"character-size": 64,
 				"spacing": 4,
 				"h-align": "left"
 			}

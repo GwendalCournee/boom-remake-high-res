@@ -20,7 +20,7 @@
 				"type": "image",
 				"name": "lang_en",
 				"src": "uk.png",
-				"size": [30, 16],
+				"size": [60, 32],
 				"interactable": true,
 				"position": [5, 5]
 			},
@@ -28,9 +28,9 @@
 				"type": "image",
 				"name": "lang_it",
 				"src": "it.png",
-				"size": [30, 16],
+				"size": [60, 32],
 				"interactable": true,
-				"position": [40, 5]
+				"position": [70, 5]
 			},
 			{
 				"type": "text",
