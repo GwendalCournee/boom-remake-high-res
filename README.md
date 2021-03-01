@@ -7,7 +7,7 @@
 
 This repository is a fork of the Lifish engine, with very few changes made, and only on Boom Branch.
 
-All graphical assets have been 4x upscaled using IA, and some parameters (speed, size of a tile, etc.) have been adapted so that to the new size of assets.
+All graphical assets have been 4x upscaled using IA, and some parameters (speed, size of a tile, etc.) have been adapted for the new size of assets.
 
 
 ## ABOUT ##
