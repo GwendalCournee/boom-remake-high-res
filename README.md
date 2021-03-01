@@ -3,9 +3,9 @@
 	     src="https://scan.coverity.com/projects/5674/badge.svg"/>
 </a>
 
-## ABOUT High Reoslution fork ##
+## ABOUT Boom High Resolution fork ##
 
-THis repository is a fork of the Lifish engine, with very few changes made.
+This repository is a fork of the Lifish engine, with very few changes made, and only on Boom Branch.
 
 All graphical assets have been 4x upscaled using IA, and some parameters (speed, size of a tile, etc.) have been adapted so that to the new size of assets.
 
